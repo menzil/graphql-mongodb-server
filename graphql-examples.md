@@ -107,3 +107,11 @@ query{
   }
 }
 ```
+### mutation delete comment
+```graphql
+mutation{
+  deleteComment(_id:"5c944a842bc8d92e78c6d7b8"){
+    _id
+  }
+}
+```
